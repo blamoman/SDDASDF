@@ -1,0 +1,20 @@
+{
+  "name": "myOSapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blamoman/SDDASDF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blamoman/SDDASDF/issues"
+  },
+  "homepage": "https://github.com/blamoman/SDDASDF#readme"
+}
