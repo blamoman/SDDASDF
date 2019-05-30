@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/blamoman/SDDASDF/issues"
   },
-  "homepage": "https://github.com/blamoman/SDDASDF#readme"
+  "homepage": "https://github.com/blamoman/SDDASDF#readme",
+  "dependencies": {
+    "mongodb": "^3.2.6"
+  }
 }
