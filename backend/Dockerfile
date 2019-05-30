@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . /app
 
+EXPOSE 8000
+
 CMD node /app/server.js
