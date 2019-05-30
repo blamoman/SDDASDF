@@ -9,7 +9,8 @@ MongoClient.connect(url, { useNewUrlParser: true }, (err, client) => {
         if (req.url === "/rando" && req.method === "GET") {
             console.log("here2");
 	    const db = client.db("admin");
-	    console.log(db);
+	    const collection = db.collection("test");
+            console.log(collection);
             res.end("donezo");
         }
     }).listen(8000);
