@@ -8,8 +8,8 @@ console.log(db);
      if(req.path === "/rando" && req.method === "GET") {
        const collection = db.collection('test');
        collection.find({}).toArray((err, docs) => {
-         console.log(docs);
+         res.end(docs);
        })
      }
-  });
+  }).listen(8000);
 });
