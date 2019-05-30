@@ -11,8 +11,7 @@
         <div id="content"></div>
         <script>
             const content = document.getElementById("content");
-            const endpoint = "http://sddasdf";
-            fetch(`${endpoint}:8000/rando`)
+            fetch("./rando")
                 .then(res => res.text())
                 .then(res => content.innerText = res);
         </script>
